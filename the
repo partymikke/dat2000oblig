@@ -1,0 +1,7 @@
+echo "# dat2000oblig" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/partymikke/dat2000oblig.git
+git push -u origin main
